@@ -28,7 +28,7 @@
     "api",
     "ironhack"
   ],
-  "repository": "ironhack/elgenerator_trainer",
+  "repository": "LJSkadi/elgenerator_trainer",
   "license": "MIT",
   "dependencies": {
     "commander": "2.11.0",
@@ -40,7 +40,7 @@
   "main": "bin/elgenerate_trainer",
   "preferGlobal": true,
   "bin": {
-    "elgenerate": "./bin/elgenerate_trainer"
+    "elgenerate_trainer": "./bin/elgenerate_trainer"
   },
   "devDependencies": {
     "mocha": "2.5.3",
