@@ -10,18 +10,6 @@
     <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
   </head>
   <body>
-    <!-- Example-Navbar with LOGIN/LOGOUT - FUNCTIONALITY -->
-    <nav>
-      <a href="/">Home</a> -
-      {{#if username}}
-        <a href="/private">Content for logged in Users</a> -
-        <a href="/logout">Log out</a>
-      {{else}}
-        <a href="/signup">Sign up</a> -
-        <a href="/login">Log in</a>
-      {{/if}}
-    </nav>
-
     {{{body}}}
   <!-- LOADING ALL NEEDED SCRIPT IN AN ORDER THAT MAKES SENSE -->
   <!-- Check, if there are scripts, which are more up to date -->
